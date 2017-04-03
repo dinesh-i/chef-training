@@ -1,0 +1,174 @@
+packer.io 
+	->  Packer is a tool for creating machine and container images for multiple platforms from a single source configuration. 
+
+chef.io
+
+teachable.com
+
+conEmu
+
+hipchat.com
+
+Vagrant Commands:
+vagrant up
+vagrant init <box-name>
+
+Chef Commands:
+chef generate cookbook cookbooks/<cook-book-name>
+
+
+
+Knife Commands:
+knife client list
+
+knife bootstrap 192.168.8.12 -x vagrant -P vagrant --sudo -N web1
+knife bootstrap 192.168.8.12 -x vagrant -P vagrant --sudo -N web1 --node-ssl-verify-mode none
+	- bypassed ssl in the above query
+	- the above query is executed from the workstation to the client nodes. This is the only command that workstation sends to client nodes and the purpose is to bootstrap the client node with chef. After this client nodes will directly communicate with the chef server.
+	
+	
+knife bootstrap 192.168.8.13 -x vagrant -P vagrant --sudo -N web2 --node-ssl-verify-mode none --run-list "recipe[apache]"
+	-- adds the run list as part of bootstrap so that the node is configured with the runlist
+	
+knife bootstrap 192.168.8.14 -x vagrant -P vagrant --sudo -N web3 -r "role[web]"
+
+knife cookbook upload apache
+knife cookbook upload ohai openjdk tomcat
+		- uploads the cookbooks to the server
+	
+-- chef-client upload failed due to missing dependent cookbooks. To avoid this issue, use Berkshelf. Berkshelf is similar to 'yum for Linux' i.e. it manages the dependent cookbooks from a repository and lets us upload the cookbooks and its dependent cookbooks.
+	
+	
+knife node run_list add web1 'recipe[apache]'
+	- Adds a recipe to a node(named web1 in above example)
+	
+knife node show web1
+
+
+In the node, run "ohai" to get system properties and more
+	
+Berks Commands:
+berks install
+	(or) berks install -c <configFileName>
+berks upload
+Note: Run it from the folder that has the file "Berksfile"
+	
+In the client node:
+sudo chef-client
+	- This initiates the pull request from the client to the chef server.  This can be configured as a service to avoid manual intervention to pull updates from chef server.
+	
+	
+	
+Create a separate node as load balancer:
+Go to haproxy where Vagrant file is present
+	vagrant up
+	vagrant ssh
+	ifconfig eth1
+		- to get the IP
+In workstation,
+	knife bootstrap 192.168.8.11 -x vagrant -P vagrant --sudo -N haproxy --node-ssl-verify-mode none --run-list "recipe[myhaproxy]"
+	
+	
+Sample Cookbooks:
+git clone https://github.com/schoolofdevops/sample-chef-cookbooks.git
+
+
+
+In client node, chef is installed in /etc/chef
+
+Role commands:
+knife role from file web.rb
+	- creates the roles defined in the above file
+knife role show web
+	- shows the attributes defined in the above role name
+knife node run_list set web1 "role[web]"
+	- changes the current run list of web1 to the above run list
+knife node run_list remove web2 "role[web]"
+	- Removes the role of web from the node "web2"
+	
+	
+ps aux | grep chef-client
+	
+
+knife search commands:
+knife search "*:*"
+knife search "role:web"
+knife search "role:web" -a memory
+knife search "role:web" -a memory.cached
+ knife search node "role:web" -l
+	-> -l to get all values
+knife search "*:*" -a chef_environment
+	
+	
+Chef doesn't give the actual Ip address we get from ifconfig eth1 by default. To enable this "ohai" is added to the roles web and lb.
+
+watch -n 1 tail /etc/haproxy/haproxy.cfg
+	- Watch the changes to the file
+	
+Data bag commands:
+knife data bag list
+knife data bag create users
+knife data bag from file users bobo.json
+knife data bag show users
+knife search users "*:*"
+
+
+
+Environment commands:
+knife environment from file prod.rb
+knife environment show prod
+knife node environment set web3 prod
+
+
+
+Ansible:
+
+Installation:
+sudo yum install ansible git -y
+
+<if any issue in the above command, install it from rpl directly using the below commands>
+wget http://mirror.premi.st/epel/6/x86_64/ansible-2.2.1.0-1.el6.noarch.rpm
+yum localinstall ansible-2.2.1.0-1.el6.noarch.rpm
+ansible --version
+
+
+
+view /etc/ansible/ansible.cfg
+
+ansible all -m ping
+	- check connectivity
+	- "all" is a host pattern here. group names, wild cards, exclusion etc can be applied here
+ansible 'blr:!web' -m ping
+	- ping all servers in "blr" group which is not "web"
+	
+ansible all -a hostname
+	- runs the hostname command on each of the servers
+ansible lb -s -a "yum install -y vim"
+	- "-s" is for sudo access
+	
+ansible all -s -a "chef-client"
+
+ansible yum module commands
+ansible lb -s -m yum -a "name=ntp state=present"
+- If ntp is not already present, it is installed. if it is already present, then no operation is performed
+ansible lb -s -m yum -a "name=ntp state=absent"
+	- Ensures that ntp is not present in the system
+	
+
+Ansible playbook commands:
+ansible-playbook playbook.yml --syntax-check
+	- to check the syntax of the yaml file
+ansible-playbook playbook.yml --list-hosts
+ansible-playbook --help
+
+ansible-playbook playbook.yml --check
+	- dry run of the playbook
+	
+ansible-playbook playbook.yml
+	- to run the playbook
+	
+UI for Ansible:
+Ansible ARA
+Jenkins
+Rundeck
+

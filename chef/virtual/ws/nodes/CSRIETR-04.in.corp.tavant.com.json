@@ -1,0 +1,1446 @@
+{
+  "name": "CSRIETR-04.in.corp.tavant.com",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 4,
+        "vendor_id": "GenuineIntel",
+        "family": "205",
+        "model": "15363",
+        "stepping": "3",
+        "physical_id": "CPU0",
+        "model_name": "Intel64 Family 6 Model 60 Stepping 3",
+        "mhz": "3201",
+        "cache_size": "1024 KB"
+      },
+      "total": 4,
+      "cores": 4,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 161113698,
+        "kb_available": 64934678,
+        "kb_used": 96179020,
+        "percent_used": 59,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "D:": {
+        "kb_size": 168820731,
+        "kb_available": 163527806,
+        "kb_used": 5292925,
+        "percent_used": 3,
+        "mount": "D:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "E:": {
+        "kb_size": 168820731,
+        "kb_available": 168405393,
+        "kb_used": 415338,
+        "percent_used": 0,
+        "mount": "E:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "7601",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 7 Professional ",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": "Service Pack 1",
+        "cs_name": "CSRIETR-04",
+        "current_time_zone": 330,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "11522160",
+        "free_space_in_paging_files": "16273516",
+        "free_virtual_memory": "27123324",
+        "install_date": "20160729141437.000000+330",
+        "large_system_cache": null,
+        "last_boot_up_time": "20170324194941.125599+330",
+        "local_date_time": "20170327163029.659000+330",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "8589934464",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows 7 Professional |C:\\Windows|\\Device\\Harddisk0\\Partition1",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 117,
+        "number_of_users": 2,
+        "operating_system_sku": 48,
+        "organization": "",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 256,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "test",
+        "serial_number": "00371-OEM-8992671-00524",
+        "service_pack_major_version": 1,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "16693932",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume1",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "33386004",
+        "total_visible_memory_size": "16693932",
+        "version": "6.1.7601",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows 7 Professional ",
+      "release": "6.1.7601",
+      "version": "6.1.7601 Service Pack 1 Build 7601",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 0,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "bootup_state": "Normal boot",
+        "caption": "CSRIETR-04",
+        "chassis_bootup_state": 3,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 330,
+        "daylight_in_effect": null,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "CSRIETR-04",
+        "domain": "in.corp.tavant.com",
+        "domain_role": 1,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 0,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 0,
+        "last_load_info": null,
+        "manufacturer": "Dell Inc.",
+        "model": "OptiPlex 3020",
+        "name": "CSRIETR-04",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 4,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "Dell System",
+          "1[0612]",
+          "3[1.0]",
+          "12[www.dell.com]",
+          "14[1]",
+          "15[3]",
+          " "
+        ],
+        "part_of_domain": true,
+        "pause_after_reset": "-1",
+        "pc_system_type": 1,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 0,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "test",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT",
+          "Potential_Browser",
+          "Master_Browser"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "17094586368",
+        "user_name": "CSRIETR-04\\Administrator",
+        "wake_up_type": 6,
+        "workgroup": null
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "16693932kB",
+        "free": "16273516kB"
+      },
+      "total": "16693932kB",
+      "free": "11521720kB"
+    },
+    "network": {
+      "interfaces": {
+        "0xb": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000007] Realtek PCIe GBE Family Controller",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "192.168.144.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Realtek PCIe GBE Family Controller",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20170401195046.000000+330",
+            "dhcp_lease_obtained": "20170324195046.000000+330",
+            "dhcp_server": "10.129.135.231",
+            "dns_domain": "in.corp.tavant.com",
+            "dns_domain_suffix_search_order": [
+              "in.corp.tavant.com",
+              "us.corp.tavant.com",
+              "prod.corp.tavant.com",
+              "corp.tavant.com",
+              "tavant.com"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "CSRIETR-04",
+            "dns_server_search_order": [
+              "10.129.135.231",
+              "10.130.135.231"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 7,
+            "interface_index": 11,
+            "ip_address": [
+              "192.168.144.14",
+              "fe80::68fb:38bb:b6eb:161b"
+            ],
+            "ip_connection_metric": 20,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "B0:83:FE:60:FA:A9",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "RTL8167",
+            "setting_id": "{F42859AA-F365-479A-BFDD-C2C666C79470}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": "10.129.135.231",
+            "wins_scope_id": "",
+            "wins_secondary_server": "10.193.64.231"
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000007] Realtek PCIe GBE Family Controller",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Realtek PCIe GBE Family Controller",
+            "device_id": "7",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{F42859AA-F365-479A-BFDD-C2C666C79470}",
+            "index": 7,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 11,
+            "last_error_code": null,
+            "mac_address": "B0:83:FE:60:FA:A9",
+            "manufacturer": "Realtek",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Realtek PCIe GBE Family Controller",
+            "net_connection_id": "Local Area Connection",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_10EC&DEV_8168&SUBSYS_06121028&REV_0C\\01000000684CE00000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Realtek PCIe GBE Family Controller",
+            "service_name": "RTL8167",
+            "speed": "100000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "CSRIETR-04",
+            "time_of_last_reset": "20170324194941.125599+330"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.144.14": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.144.255",
+              "family": "inet"
+            },
+            "fe80::68fb:38bb:b6eb:161b": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "B0:83:FE:60:FA:A9": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.144.1": "1c:17:d3:5b:af:4e",
+            "192.168.144.11": "b0:83:fe:60:fb:fc",
+            "192.168.144.12": "b0:83:fe:74:ac:e7",
+            "192.168.144.15": "b0:83:fe:69:6c:e9",
+            "192.168.144.17": "b0:83:fe:60:5e:bb",
+            "192.168.144.18": "b0:83:fe:65:a9:49",
+            "192.168.144.21": "b0:83:fe:75:64:15",
+            "192.168.144.22": "b0:83:fe:61:59:8a",
+            "192.168.144.23": "64:00:6a:29:59:40",
+            "192.168.144.25": "b0:83:fe:74:40:80",
+            "192.168.144.26": "b0:83:fe:75:63:f7",
+            "192.168.144.28": "b0:83:fe:74:b4:03",
+            "192.168.144.29": "b0:83:fe:74:ae:8f",
+            "192.168.144.30": "64:00:6a:29:5a:c8",
+            "192.168.144.31": "b0:83:fe:75:5f:e6",
+            "192.168.144.32": "b0:83:fe:63:0f:f1",
+            "192.168.144.34": "b0:83:fe:75:60:2e",
+            "192.168.144.35": "18:db:f2:4a:2a:04",
+            "192.168.144.36": "64:00:6a:29:59:05",
+            "192.168.144.37": "b0:83:fe:61:b1:f5",
+            "192.168.144.38": "84:7b:eb:3f:27:31",
+            "192.168.144.39": "b0:83:fe:62:26:3c",
+            "192.168.144.42": "f0:1f:af:5e:d5:64",
+            "192.168.144.43": "d4:be:d9:59:47:6c",
+            "192.168.144.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "231.135.129.10": "01:00:5e:07:81:0a",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0xe": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000012] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "dhcp_enabled": false,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": null,
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "in.corp.tavant.com",
+              "us.corp.tavant.com",
+              "prod.corp.tavant.com",
+              "corp.tavant.com",
+              "tavant.com"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "CSRIETR-04",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 12,
+            "interface_index": 14,
+            "ip_address": [
+              "192.168.56.1",
+              "fe80::7c17:7fd9:137f:2c47"
+            ],
+            "ip_connection_metric": 10,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:0E",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{A840E2A9-5913-42BD-9308-185CC5F4B375}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000012] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "12",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{A840E2A9-5913-42BD-9308-185CC5F4B375}",
+            "index": 12,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 14,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:0E",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter",
+            "net_connection_id": "VirtualBox Host-Only Network",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "CSRIETR-04",
+            "time_of_last_reset": "20170324194941.125599+330"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.56.1": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.56.255",
+              "family": "inet"
+            },
+            "fe80::7c17:7fd9:137f:2c47": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:0E": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.56.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "231.135.129.10": "01:00:5e:07:81:0a",
+            "239.255.255.250": "01:00:5e:7f:ff:fa"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0x18": {
+          "configuration": {
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000013] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter #2",
+            "dhcp_enabled": false,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": null,
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "in.corp.tavant.com",
+              "us.corp.tavant.com",
+              "prod.corp.tavant.com",
+              "corp.tavant.com",
+              "tavant.com"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "CSRIETR-04",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 13,
+            "interface_index": 24,
+            "ip_address": [
+              "192.168.8.1",
+              "fe80::8407:4c7c:25d3:23be"
+            ],
+            "ip_connection_metric": 49,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:18",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{77711358-58C2-4AA3-8E3C-89917C5DA5E8}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000013] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "13",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{77711358-58C2-4AA3-8E3C-89917C5DA5E8}",
+            "index": 13,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 24,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:18",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter #2",
+            "net_connection_id": "VirtualBox Host-Only Network #2",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0001",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "CSRIETR-04",
+            "time_of_last_reset": "20170324194941.125599+330"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.8.1": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.8.255",
+              "family": "inet"
+            },
+            "fe80::8407:4c7c:25d3:23be": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:18": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.8.10": "08:00:27:18:cb:82",
+            "192.168.8.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "192.168.144.1",
+      "default_interface": "0xb"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "192.168.144.14",
+    "macaddress": "B0:83:FE:60:FA:A9",
+    "ip6address": "fe80::68fb:38bb:b6eb:161b",
+    "os": "windows",
+    "os_version": "6.1.7601",
+    "platform": "windows",
+    "platform_version": "6.1.7601",
+    "platform_family": "windows",
+    "uptime_seconds": 247249,
+    "uptime": "2 days 20 hours 40 minutes 49 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "java": {
+        "version": "1.8.0_112",
+        "runtime": {
+          "name": "Java(TM) SE Runtime Environment",
+          "build": "1.8.0_112-b15"
+        },
+        "hotspot": {
+          "name": "Java HotSpot(TM) Client VM",
+          "build": "25.112-b15, mixed mode, sharing"
+        }
+      },
+      "nodejs": {
+        "version": "6.9.1"
+      },
+      "perl": {
+        "version": "5.22.1",
+        "archname": "x86_64-msys-thread-multi"
+      },
+      "powershell": {
+        "version": "2.0",
+        "ws_man_stack_version": "2.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "2.0.50727.5485",
+        "build_version": "6.1.7601.17514",
+        "compatible_versions": [
+          "1.0",
+          "2.0"
+        ],
+        "remoting_protocol_version": "2.1"
+      },
+      "ruby": {
+        "platform": "i386-mingw32",
+        "version": "2.1.8",
+        "release_date": "2015-12-16",
+        "target": "i386-pc-mingw32",
+        "target_cpu": "i386",
+        "target_vendor": "pc",
+        "target_os": "mingw32",
+        "host": "i686-pc-mingw32",
+        "host_cpu": "i686",
+        "host_os": "mingw32",
+        "host_vendor": "pc",
+        "bin_dir": "C:/opscode/chefdk/embedded/bin",
+        "ruby_bin": "C:/opscode/chefdk/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0",
+        "gem_bin": "C:/opscode/chefdk/embedded/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "12.10.24",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.10.24-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "8.16.0",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.1.0/gems/ohai-8.16.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud_v2": null,
+    "command": {
+
+    },
+    "hostname": "CSRIETR-04",
+    "machinename": "CSRIETR-04",
+    "fqdn": "CSRIETR-04.in.corp.tavant.com",
+    "domain": "in.corp.tavant.com",
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1490612434.460292,
+    "packages": {
+      "Git version 2.8.4": {
+        "version": "2.8.4",
+        "publisher": "The Git Development Community",
+        "installdate": "20170324"
+      },
+      "Microsoft Visual Studio 2010 Tools for Office Runtime (x64)": {
+        "version": "10.0.50908",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Lync 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150930"
+      },
+      "Microsoft Office Standard 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150930"
+      },
+      "FICO Application Studio Development Environment 9.0": {
+        "version": "9.0",
+        "publisher": "FICO Application Studio"
+      },
+      "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "7-Zip 9.38 (x64 edition)": {
+        "version": "9.38.00.0",
+        "publisher": "Igor Pavlov",
+        "installdate": "20150929"
+      },
+      "Java 8 Update 102 (64-bit)": {
+        "version": "8.0.1020.14",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160729"
+      },
+      "Maxx Audio Installer (x64)": {
+        "version": "1.6.5073.107",
+        "publisher": "Waves Audio Ltd.",
+        "installdate": "20160729"
+      },
+      "Symantec Endpoint Protection": {
+        "version": "12.1.6867.6400",
+        "publisher": "Symantec Corporation",
+        "installdate": "20160729"
+      },
+      "Node.js": {
+        "version": "6.9.1",
+        "publisher": "Node.js Foundation",
+        "installdate": "20161108"
+      },
+      "Java SE Development Kit 8 Update 102 (64-bit)": {
+        "version": "8.0.1020.14",
+        "publisher": "Oracle Corporation",
+        "installdate": "20160729"
+      },
+      "ConEmu 161206.x64": {
+        "version": "11.161.2060",
+        "publisher": "ConEmu-Maximus5",
+        "installdate": "20170324"
+      },
+      "Oracle VM VirtualBox 5.0.20": {
+        "version": "5.0.20",
+        "publisher": "Oracle Corporation",
+        "installdate": "20170324"
+      },
+      "Intel® Trusted Connect Service Client": {
+        "version": "1.28.487.1",
+        "publisher": "Intel Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Silverlight": {
+        "version": "5.1.40728.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Intel(R) Chipset Device Software": {
+        "version": "10.1.1.7",
+        "publisher": "Intel(R) Corporation"
+      },
+      "Security Update for Microsoft Office 2013 (KB3039798) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Outlook Social Connector 2013 (KB3054854) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft OneNote 2013 (KB3085491) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2975869) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft PowerPoint 2013 (KB3085478) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2837654) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3054774) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2760371) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3055010) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3085504) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Word 2013 (KB3085490) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Office 2013 (KB2910941) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3054783) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3085480) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3085493) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3085479) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2760544) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3054856) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Publisher 2013 (KB3023050) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Excel 2013 (KB3085502) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Outlook 2013 (KB3085495) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2880487) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Definition Update for Microsoft Office 2013 (KB3085499) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2889863) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3054935) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3039766) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3039718) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Visio Viewer 2013 (KB2817301) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3023052) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2899522) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3039739) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2965271) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Word 2013 (KB2878319) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3039762) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3054923) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Service Pack 1 for Microsoft Office 2013 (KB2817430) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Office 2013 (KB3054816) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2956152) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2883036) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2883095) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB2760344) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Office 2013 (KB3085506) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft OneDrive for Business (KB3055020) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Security Update for Microsoft Office 2013 (KB3039734) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Microsoft Excel MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150930"
+      },
+      "Update for Microsoft Office 2013 (KB2881076) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Microsoft PowerPoint MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150930"
+      },
+      "Microsoft Publisher MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Outlook MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Word MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150930"
+      },
+      "Microsoft Office Proofing Tools 2013 - English": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Update for Microsoft Office 2013 (KB3055011) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Outils de vérification linguistique 2013 de Microsoft Office - Français": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Office Proofing Tools 2013 - Español": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Office Proofing (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Office Shared MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150930"
+      },
+      "Security Update for Microsoft Office 2013 (KB3054932) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Microsoft OneNote MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Groove MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Office 32-bit Components 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150930"
+      },
+      "Security Update for Skype for Business 2015 (KB3085500) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Update for Microsoft Project 2013 (KB3085510) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Microsoft Office Shared 32-bit MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150930"
+      },
+      "Microsoft Office OSM MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Office OSM UX MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Office Shared Setup Metadata MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Lync MUI (English) 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150930"
+      },
+      "Update for Skype for Business 2015 (KB2889853) 64-Bit Edition": {
+        "publisher": "Microsoft\u0000"
+      },
+      "Microsoft .NET Framework 4.6.1": {
+        "version": "4.6.01055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170309"
+      },
+      "Microsoft Application Error Reporting": {
+        "version": "12.0.6015.5000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Visio Viewer 2013": {
+        "version": "15.0.4569.1506",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "TortoiseSVN 1.9.0.26652 (64 bit)": {
+        "version": "1.9.26652",
+        "publisher": "TortoiseSVN",
+        "installdate": "20150929"
+      },
+      "Windows Live ID Sign-in Assistant": {
+        "version": "7.250.4311.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "MSVCRT110_amd64": {
+        "version": "16.4.1109.0912",
+        "publisher": "Microsoft",
+        "installdate": "20150929"
+      },
+      "AWS Command Line Interface": {
+        "version": "1.11.63",
+        "publisher": "Amazon Web Services Developer Relations",
+        "installdate": "20170314"
+      },
+      "Adobe AIR": {
+        "version": "24.0.0.180",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20170202"
+      },
+      "Adobe Flash Player 18 ActiveX": {
+        "version": "18.0.0.209",
+        "publisher": "Adobe Systems Incorporated"
+      },
+      "Adobe Flash Player 18 NPAPI": {
+        "version": "18.0.0.209",
+        "publisher": "Adobe Systems Incorporated"
+      },
+      "Adobe Flash Player 18 PPAPI": {
+        "version": "18.0.0.210",
+        "publisher": "Adobe Systems Incorporated"
+      },
+      "Blaze Advisor 7.3": {
+        "version": "1.0.0.0",
+        "publisher": "Fair Isaac Corporation",
+        "installdate": "Mon Aug 01 08:58:14 IST 2016"
+      },
+      "Data Loader": {
+        "version": "38.0.1",
+        "publisher": "salesforce.com"
+      },
+      "FASt Development Environment 9": {
+        "version": "1.0.0.0",
+        "publisher": "FICO Inc.",
+        "installdate": "Mon Aug 01 08:58:27 IST 2016"
+      },
+      "Force.com Explorer (Beta)": {
+        "version": "0.58",
+        "publisher": "salesforce.com",
+        "installdate": "20170202"
+      },
+      "Google Chrome": {
+        "version": "59.0.3047.4",
+        "publisher": "Google Inc.",
+        "installdate": "20150929"
+      },
+      "K-Lite Codec Pack 11.4.0 Basic": {
+        "version": "11.4.0",
+        "installdate": "20150929"
+      },
+      "Mozilla Firefox 33.1.1 (x86 en-US)": {
+        "version": "33.1.1",
+        "publisher": "Mozilla"
+      },
+      "Mozilla Maintenance Service": {
+        "version": "33.1.1",
+        "publisher": "Mozilla"
+      },
+      "Notepad++": {
+        "version": "6.8.2",
+        "publisher": "Notepad++ Team"
+      },
+      "Opera Stable 31.0.1889.99": {
+        "version": "31.0.1889.99",
+        "publisher": "Opera Software"
+      },
+      "PSPad editor": {
+        "version": "4.5.9.2600",
+        "publisher": "Jan Fiala",
+        "installdate": "20150929"
+      },
+      "QT Lite 4.1.0": {
+        "version": "4.1.0",
+        "installdate": "20150929"
+      },
+      "RationalPlan Viewer": {
+        "version": "4.8.3",
+        "publisher": "Stand By Soft Ltd"
+      },
+      "Sublime Text 2.0.2": {
+        "installdate": "20170314"
+      },
+      "Windows Live Essentials": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Yahoo! Messenger": {
+        "publisher": "Yahoo! Inc."
+      },
+      "Windows Live UX Platform": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Chef Development Kit v0.14.25": {
+        "version": "0.14.25.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20170324"
+      },
+      "Windows Live Photo Common": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Realtek Audio COM Components": {
+        "version": "1.0.2",
+        "publisher": "Realtek Semiconductor Corp.",
+        "installdate": "20160729"
+      },
+      "Intel(R) USB 3.0 eXtensible Host Controller Driver": {
+        "version": "4.0.0.36",
+        "publisher": "Intel Corporation"
+      },
+      "Java 8 Update 112": {
+        "version": "8.0.1120.15",
+        "publisher": "Oracle Corporation",
+        "installdate": "20161108"
+      },
+      "Java SE Development Kit 8 Update 112": {
+        "version": "8.0.1120.15",
+        "publisher": "Oracle Corporation",
+        "installdate": "20161108"
+      },
+      "Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030": {
+        "version": "11.0.61030.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Windows Live Communications Platform": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Java Auto Updater": {
+        "version": "2.8.112.15",
+        "publisher": "Oracle Corporation",
+        "installdate": "20161108"
+      },
+      "Google Update Helper": {
+        "version": "1.3.32.7",
+        "publisher": "Google Inc.",
+        "installdate": "20161217"
+      },
+      "Intel(R) Management Engine Components": {
+        "version": "9.5.14.1724",
+        "publisher": "Intel Corporation"
+      },
+      "Windows Live UX Platform Language Pack": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Windows Live Installer": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Visual C++ 2005 Redistributable": {
+        "version": "8.0.61001",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "MSVCRT": {
+        "version": "15.4.2862.0708",
+        "publisher": "Microsoft",
+        "installdate": "20150929"
+      },
+      "MSVCRT110": {
+        "version": "16.4.1108.0727",
+        "publisher": "Microsoft",
+        "installdate": "20150929"
+      },
+      "Update for Microsoft .NET Framework 4.6.1 (KB3210136)": {
+        "version": "1",
+        "publisher": "Microsoft Corporation"
+      },
+      "SUNIX Multi IO Controller": {
+        "version": "8.1.1.0",
+        "publisher": "SUNIX Co., Ltd.",
+        "installdate": "20150929"
+      },
+      "Adobe Reader XI (11.0.10)": {
+        "version": "11.0.10",
+        "publisher": "Adobe Systems Incorporated",
+        "installdate": "20150929"
+      },
+      "Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030": {
+        "version": "11.0.61030",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Windows Live PIMT Platform": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Windows Live Messenger": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030": {
+        "version": "11.0.61030",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20160801"
+      },
+      "Photo Common": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Windows Live SOXE": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Windows Live SOXE Definitions": {
+        "version": "16.4.3528.0331",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Vagrant": {
+        "version": "1.8.1",
+        "publisher": "HashiCorp",
+        "installdate": "20170324"
+      },
+      "D3DX10": {
+        "version": "15.4.2368.0902",
+        "publisher": "Microsoft",
+        "installdate": "20150929"
+      },
+      "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20150929"
+      },
+      "Intel(R) Processor Graphics": {
+        "version": "10.18.14.4432",
+        "publisher": "Intel Corporation"
+      },
+      "Realtek High Definition Audio Driver": {
+        "version": "4.21",
+        "publisher": "Realtek Semiconductor Corp.",
+        "installdate": "20160729"
+      },
+      "Realtek Ethernet Controller All-In-One Windows Driver": {
+        "version": "7.92.115.2015",
+        "publisher": "Realtek",
+        "installdate": "20160729"
+      },
+      "Microsoft Visual Studio Code": {
+        "version": "1.7.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20161108"
+      }
+    },
+    "root_group": "Administrators",
+    "recipes": [
+      "7zip::install"
+    ],
+    "expanded_run_list": [
+      "7zip::install"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "7zip": {
+        "version": "0.1.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[7zip::install]"
+  ]
+}

@@ -1,0 +1,40 @@
+---
+-
+  become: true
+  hosts: lb
+  name: "stop the load balancer"
+  tags:
+    - loadbalancer
+  tasks:
+    -
+      name: "stop the chef-client service"
+      service: "name=chef-client state=stopped\n"
+    -
+      name: "stop the ha proxy before updating web servers"
+      service: "name=haproxy state=stopped\n"
+-
+  become: true
+  hosts: web
+  name: "update web servers using chef client"
+  tasks:
+    -
+      name: "stop the chef-client service"
+      service: "name=chef-client state=stopped\n"
+    -
+      command: chef-client
+      name: "launch chef-client which will do the rest"
+    -
+      name: "Wait for apache to start"
+      wait_for:
+        port: 80
+        delay: 10
+        timeout: 60
+-
+  become: true
+  hosts: lb
+  name: "start the load balancer"
+  gather_facts: false
+  tasks:
+    -
+      name: "start haproxy"
+      service: "name=haproxy state=started\n"
